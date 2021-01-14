@@ -1,0 +1,48 @@
+		/*header 속성*/
+		header a {
+			text-decoration:none;
+			color:white;
+			-webkit-transition-duration: 0.4s;
+			transition-duration: 0.4s;
+		}
+		header a:hover {
+			color:#008299;
+		}
+		header strong {
+			color:white;
+		}
+		
+		/*media query: 넓은 화면*/
+		@media(min-width:1170px) {
+			#list {display:none;}
+			main {
+				width:690px;
+				margin:0 auto;
+			}
+			.menu {	float:right; margin:0; }
+			.menu li { float:left; padding-right:18px;}
+			.menu li li {padding-right:25px;}
+			.menu a {line-height:50px;color:white;padding:0;}
+			h1 a {
+				float:left;
+			}
+			.wrapper{
+				width:1170px;
+			}
+		}
+
+		/*media query: 좁은 화면*/
+		@media(max-width:1170px) {
+			#contents{
+				display:grid;
+				grid-template-columns:270px 1fr;
+			}
+			#list {
+				border-right:1px solid #98D8E9;
+			}
+			#list ul {padding-left:20px; line-height: 150%}
+			nav {display:none;}
+			h1 {
+				text-align: center;
+			}
+		}

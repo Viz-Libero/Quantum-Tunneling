@@ -1,0 +1,15 @@
+		header{
+			text-decoration:none;
+			color:white;
+		}
+		main {
+			width:690px;
+			margin:0 auto;
+			padding-top:130px;
+		}
+		h1 {
+			text-align: center;
+		}
+		ul {
+			line-height:170%;
+		}

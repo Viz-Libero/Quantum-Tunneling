@@ -1,0 +1,50 @@
+		/* header 속성 */
+		header {
+			height:100px;
+			background-color:#98D8E9;
+			border:1px solid #008299;
+			position:fixed;
+			width:100%;
+			z-index:9999;
+			top:0;
+			left:0;
+		}
+		.wrapper {margin:0 auto;}
+
+		/*본문 볼드 색상*/
+		strong {
+			color:#008299;
+		}
+
+		/*리스트 기본*/
+		li a { text-decoration:none;color:#008299; }
+
+		/*본문 기본*/
+		main {padding-top:90px;}
+		#paragraphs{padding:20px;}
+		
+		/*버튼 속성*/
+		.btn {
+			width:70px;
+			background-color:#98D8E9;
+			padding:8px 5px;
+			margin:2px;
+			border:none;
+			border-radius:5px;
+			color:black;
+			text-align:center;
+			text-decoration:none;
+			font-size:12px;
+			display:inline-block;
+			-webkit-transition-duration: 0.4s;
+			transition-duration: 0.4s;
+		}
+		.btnP:hover, .btnN:hover, .btnH:hover {
+			background-color:#008299;
+			color:white;
+		}
+		.buttons {display:flex; justify-content:center;}
+
+		/*본문 이미지 정렬*/
+		.img { text-align: center }
+		.img img { padding:4px; }
